@@ -1,0 +1,595 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.row{ 
+    width:100%;
+}
+.mainContainer{
+    max-width: 1680px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.headerBG{
+    background-color: #0a2b54;
+    width: 100%;
+    display: inline-block;
+    
+    
+}
+.headerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+}
+.logo{
+    display: inline-block;
+    width: 380px;
+    
+}
+.navigation{
+    display: inline-block;
+    width: 50%;
+}
+.navigation ul li{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.navigation ul li a{
+    /* position: relative */
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    left: 20px;
+}
+.navigation ul li a:hover{
+    background-color: white;
+    color: #0a2b54;
+    transition: .5s;
+}
+.button{
+    
+    border: 2px solid white;
+    padding: 10px 5px;
+    border-radius: 50px;
+    background: #d16733;
+    float: right;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+}
+/* .button a:hover{
+    border: 1px solid #d16733;
+    color: #d16733;
+    border-radius: 50px;
+    background: white;
+    padding: 10px 5px;
+    transition: .5s; */
+
+
+.middleContentSection{
+    background-color: #fef9f1;
+    
+}
+.middleContentSection h1{
+    font-size: 65px;
+    font-weight: 50px;
+    font-family: value serif;
+}
+.middleContentSection p{
+    font-size: 25px;
+    
+}
+.button2{
+    display: inline;
+    padding: 15px 39px;
+    border-radius: 50px;
+    background: #d16733;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+/* .button2 a:hover{
+    /* border: 1px solid #d16733; */
+    /* color: #d16733;
+    /* border-radius: 50px; */
+    /* background: white; */
+    /* padding: 15px 39px; */
+    /* transition: .5s; */
+
+.image{
+    float: right;
+    width: 70%;
+    
+}
+.middleContent{
+    background-color: #ebebeb;
+}
+.medicoFreeSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ============================================== */
+.medicoConnect{
+    background-color: #ebebeb;
+    position: relative;
+    top: -30px;
+
+}
+.medicoConnect h2{
+    color: #07284b;
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    bottom: -39px;
+}
+.medicoConnect p{
+    color: #ff6801;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 21px;
+    font-weight: bold;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 88px;
+}
+
+/* Third====================================== */
+.third-part{
+    background-color: white;
+    display: inline-block;
+}
+.third-part h2{
+    color: #07284b;
+    text-align: center;
+    font-family: serif;
+    font-size: 38px;
+    margin-top: 68px;
+}
+.third-part p{
+    color: #555555;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -18px;
+    font: caption;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.this-part{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+.side-img{
+    width: 66%;
+    position: relative;
+    left: 394px;
+}
+.third-part .left_wrapper{
+    position: relative;
+    right: 50px;
+}
+.left_wrapper ol li{
+    font-size: 21px;
+}
+/* foruthPart===================================================== */
+.fourth-part{
+    background-color: #fef9f1;
+    text-align: center;
+    position: relative;
+    bottom: 34px;
+}
+.fourth-part h2{
+    color: #e28f44;
+    font-family: value serif;
+    font-size: 40px;
+    padding-top: 42px;
+}
+.fourth-part .star{
+    color: #dfae78;
+    font-size: 35px;
+}
+.fourth-part p{
+    font-size: 20px;
+    
+}
+/* <!-- fifth Part===========================================================  */
+
+.fifth-part h2{
+    font-family: serif;
+    font-size: 37px;
+    text-align: center;
+}
+.fifth-part .img-wrapper_{
+    display: flex;
+    
+}
+.fifth-part .img_{
+    padding: 20px;
+}
+.fifth-part h3{
+    font-size: 28px;
+}
+.fifth-part p{
+    font-size: 17px;
+}
+/* sixth part============================================================= */
+.sixth-part{
+    background-color: #f4f5f9;
+    
+}
+.sixth-part li{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+.sixth-part .img-container, .img-container0{
+    display: flex;
+    padding: 28px;
+}
+.sixth-part h3{
+    font-size: 20px;
+}
+.sixth-part p{
+    font-size: 18px;
+    width: 90%;
+}
+
+/* seventh part===================================== */
+.seventh-part{
+    height: 285px;
+    position: relative;
+    top: -41px;
+    background-color: #e28f44;
+    text-align: center;
+    color: white;
+    }
+    .seventh-part h2{
+        font-family: serif;
+        font-size: 40px;
+        position: relative;
+        top: 27px;
+    }
+    .seventh-part span{
+        font-weight: bold;
+        display: block;
+    }
+    .seventh-part .button_{
+        
+        border: 2px solid white;
+        padding: 4px 39px;
+        border-radius: 50px;
+        display: inline-block;
+        background: #01b50d;
+        margin-top: 15px;
+
+    }
+    .button_ a{
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    }
+/* eight-part================================================================ */
+    .eight-part h2{
+        font-family: serif;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .eight-part .first{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .eight-part h3{
+        width: 243px;
+        font-size: 40px;
+        
+    }
+    .eight-part .first h3{
+        font-size: 40px;
+        font-family: serif;
+    }
+    .eight-part .first p{
+        font-family: serif;
+        font-size: 19px;
+    }
+
+    .eight-part .single-img{
+        width: 37%;
+        
+
+    }
+    /* SECOND SECTION */
+        .eight-part .second .image_{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .eight-part .second h3{
+            font-size: 40px;
+            font-family: serif;
+        }
+        .eight-part .second p{
+            font-family: serif;
+            font-size: 19px;
+        }
+
+    /* Third-part */
+    .third{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .third h3{
+        font-size: 40px;
+        font-family: serif;
+    }
+    .third-part p{
+        font-size: 19px;
+        font-family: serif;
+    }
+    /* ninth-part===================== */
+    .ninth-part{
+        background-color: #942193;
+        height: auto;
+        
+    }
+    .disount-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ninth-part .dis-img{
+        width: 80%;
+        float: right;
+        /* position: relative;
+        bottom: 171px; */
+    }
+    .discount h2{
+        color: #fffb00;
+        font-family: serif;
+        font-size: 37px;
+    }
+    .discount p{
+        color: white;
+        font-size: 20px;
+
+    }
+    /* last-part================================= */
+    .last-part{
+        text-align: center;
+    }
+    .last-part h2{
+        color: #07284b;
+        font-family: serif;
+        font-size: 40px;
+    }
+    .last-part h3{
+        color: #ed793c;
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .last-part .bttn{
+        display: inline;
+        border: 2px solid #01b40d;
+        padding: 5px 43px;
+        border-radius: 50px;
+        background: #01b40d;
+    }
+    .last-part .bttn a{
+        text-decoration: none;
+        color: white;
+    }
+    /* footer-section===================== */
+    .footerContentSection{
+        margin-top: 50px;
+        background-color: #0a2b54;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .live_medic{
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+        line-height: 21px;
+        padding-top: 50px;
+        font-size: 15px;
+    }
+    .footerContentSection .logo_img{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+        
+    
+    }
+    .footerContentSection div{
+        padding-right: 15px;
+        
+    }
+    
+    /* .end{
+        margin-bottom: 30px;
+    } */
+
+    /* back to top css */
+
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.7);
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 13px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top:hover {
+        background: rgba(0, 0, 0, 0.9);
+    }
+    #return-to-top:hover i {
+        color: #fff;
+        top: 5px;
+    }
+    
+    /* hmberger menu */
+    .hmbergerMenu{ display: none;}
+    
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background:url(images/images/Hamburger.png);
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 3px;    width: 10px;
+    height: 10px;
+    z-index: 999;
+    background-size: 100%;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #2471A3;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #2980B9;
+    color: white;
+  }
+  
+  /* Large screens - DESKTOP */
+  @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+
+
+    /* Mobile media jquery */
+/*  */
+    @media screen and (max-width: 1024px) and (min-width:320px) {
+        body{ padding: 0 10px !important;}
+        .middleContentSection h1 br {display: none; }
+        .middleContentSection h1{ font-size:18px;}
+        .medicoFreeSection{ display:block;}
+        .middleContentSection p { font-size: 18px;}
+        .middleContentSection p br{ display: none;}
+        .hmbergerMenu{ display: block;}
+        .navigation{ display: none;}
+        .logo { display: block; width: 50%; margin: 0 auto;float: left; }
+        .headerMenu{ display: block !important;}
+        .logo a img{ width:60%; margin: 0 auto;}
+        .button{ margin-top:7px;width:105px; text-align: center;}
+        .button2{ margin-top: 10px; display: block;padding: 10px;  width:50%; margin: 0 auto;}
+        .button2 a{font-size: 16px; text-align: center;display: block;}
+        .image{margin-top: 31px; float: none;}
+        .rightContent_{ text-align: center;}
+        .medicoConnect h2{font-size: 25px;}
+        .third-part h2 br{ display: none;}
+        .third-part h2{font-size: 25px; margin-top: 9px;}
+        .third-part .left_wrapper{ right:0;width: 100%;}
+        .left_wrapper ol li {font-size: 16px; }
+        .right_wrapper { display: block; text-align: center; margin: 0 auto;}
+        .wrapper{ display: block;}
+        .side-img{ left: 0;}
+        .center{display: block;  margin-left: auto; margin-right: auto; width: 50%;  position: relative;top: 15px;}
+        .fourth-part h2{font-size: 24px;} 
+        .fifth-part .img-wrapper_{display: block; text-align: center; margin: 0 auto;}
+        .fifth-part h2{font-size: 33px;}
+        .sixth-part .img-container, .img-container0{display: block; text-align: center; margin: 0 auto;}   
+        .sixth-part li img{width: 50%;} 
+        .sixth-part p{width: 100%;}
+        .sixth-part li{position: relative; right: 31px;}  
+        .seventh-part h2{font-size: 31px;}
+        .eight-part .single-img{width: 45%; justify-content: space-around;}
+        .eight-part h2 {font-size: 25px; padding-bottom: 2px;}
+        .eight-part .first h3 {font-size: 23px;}
+        .eight-part .first h3 br {display: none;}
+        .eight-part .second h3 {font-size: 25px;}
+        .third h3 {font-size: 25px;}
+        .discount h2 br{display: none;}
+        .discount h2{font-size: 22px; padding-top: 16px; margin-top: 0;}
+        .discount p{font-size: 17px;}
+        .disount-wrap{display: block;}
+        .ninth-part .dis-img {width:88%; float: none; align-items: center; margin-left: 28px;}
+        .last-part h2{font-size: 30px;}
+        .last-part h3{font-size: 27px;}
+        .footerContentSection .live_medic img{width: 80%;}
+
+
+
+
+
+
+
+
+
+
+    }
